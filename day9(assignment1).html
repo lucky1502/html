@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 2px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .containet{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            
+        }
+        .main{
+            height: 100vh;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            
+        }
+        .header{
+            height: 100vh;
+            width: 30%;
+            
+            background-color: white;
+        }
+        .box{
+            height: 25vh;
+            width: 100%;
+            background-color: yellow;
+            border: 2px solid black;
+            display: flex;
+        }
+        .inner-main{
+            height: 100vh;
+            width: 70%;
+            background-color: white;
+        }
+        .main-one{
+            height: 25vh;
+            width: 100%;
+            background-color: brown;
+            border: 2px solid black;
+        }
+        #one{
+            height: 50vh;
+            display: flex;
+            background-color: aliceblue;
+            justify-content: space-between;
+            
+
+        }
+        .two{
+            height: 50vh;
+            width: 40%;
+            background-color: lime;
+        }
+        #three{
+            display: flex;
+            flex-direction: column;
+            background-color: aliceblue;
+
+        }
+        .four{
+            height: 25vh;
+            width: 100%;
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <div class="header">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="inner-main">
+            <div class="main-one"></div>
+            <div class="main-one" id="one">
+                <div class="two"></div>
+                <div class="two" id="three">
+                    <div class="four"></div>
+                    <div class="four"></div>
+                </div>
+                <div class="two"></div>
+            </div>
+            <div class="main-one"></div>
+        </div>
+        
+    </div>    
+ </div>
+        
+
+
+
+
+
+
+    </div>
+</body>
+</html>
