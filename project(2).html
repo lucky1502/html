@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+        height: 10vh;
+        width: 100%;
+        background-color:whitesmoke;
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+    }
+    
+   
+    .header-one{
+        height: 10vh;
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .box-one{
+        font-size: 30px;
+        color: black;
+        background-color: whitesmoke;
+    }
+    .header-two{
+        height: 10vh;
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .box{
+        font-size: 20px;
+        color: black;
+    }
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        
+    }
+    .main-one{
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        
+        
+        
+    }
+    #img-one{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        
+    
+    
+    }
+   .inner-main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    font-size: 40px;
+    color: whitesmoke;
+   } 
+   .main-one{
+    height: 100vh;
+    width: 100%;
+    background-color:wheat;
+   }
+   .head{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+   }
+   .inner-one{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+   }
+   .one{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .oneone{
+    height: 80%;
+    width: 24%;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    
+    
+   }
+   .one-one{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+   }
+   .two{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+   }
+   .twotwo{
+    height: 80%;
+    width: 24%;
+    background-color: aquamarine;
+    border: 2px solid black;
+   }
+   img{
+    width: 100%;
+    height: 90%;
+   }
+   #hoented{
+    height: 100%;
+   }
+   #brick{
+    height: 100%;
+   }
+   .Main-two{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+   }
+   .main-head{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(20, 20, 24);
+   }
+   .main-head{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+
+   }
+   .Main-Main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+   }
+   p{
+    font-size: 30px;
+    margin-top: 8px;
+   }
+   .Main-Main-one{ 
+    height:70% ;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+
+   }
+   .Main-Main-one-one{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+    
+    font-size: 20px;
+   }
+   .Main-Main-one-one-one{
+    height: 60%;
+   }
+
+   
+   .Main-Main-one-one-head{
+     height: 8%;
+     width: 100%;
+     background-color: whitesmoke;
+     
+   }
+   .Main-Main-one-one-main{
+    height: 40%;
+    width: 100%;
+    background-color:white;
+   }
+   .Main-Main-one-one-main-inner{
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    font-size:30px ;
+   }
+   button{
+    height: 20%;
+    width: 100%;
+   }
+   .contect{
+     height: 90%;
+     width: 100%;
+     background-color: white;
+   }
+   .contect-head{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+   }
+   .contect-main{
+    height: 90%;
+    width: 100%;
+    background-color:white;
+    
+   }
+   .contect-main-head{
+              height: 10%;
+              width: 100%;
+              background-color: white;
+              font-size: 25px;
+   }
+   .contect-main-name{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+   }
+   input{
+    height: 100%;
+    width: 100%;
+   }
+   
+    
+   
+   .contect-main-email{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+   }
+   
+   .contect-main-subject{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+   }
+   .contect-main-comment{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+   }
+   
+   #butt{
+    height: 10vh;
+    width: 20%;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+   } 
+   .main-img{
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+   }
+   
+  
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-one">
+            <div class="box-one">BR Architects</div>
+        </div>
+        <div class="header-two">
+           <div class="box">Home</div>
+           <div class="box">About</div>
+           <div class="box"> Contect</div>
+        </div>
+   </div>
+    
+   <div class="main">
+         <div class="main-one">
+                 <img src="https://www.messagespartyshop.co.uk/uploads/cms/pagesection/13/architectural-design-architecture-building-443383-large.jpg" id="img-one" alt="">
+             <din class="inner-main">
+                 <div class="one-one-one">BR Architects</div>
+
+            </din>
+        </div>
+    </div>
+    <div class="main-one">
+         <div class="head">Projects</div>   
+         <div class="inner-one">
+             <div class="one">
+                 <div class="oneone">
+                     <div class="one-one">Summer-house</div>
+                     <din class="one-two">   <img src="https://th.bing.com/th?id=OIP.qljk19JWLbjLTNXWKAgyxwHaEa&w=323&h=192&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt=""></din>
+                 </div>
+                 <div class="oneone">
+                     <div class="one-one">Renovate House</div>
+                     <din class="one-two">  <img src="https://th.bing.com/th?id=OIP.5kGyoxY2XZDixSK0JrZLjQHaFE&w=302&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt=""></din>
+                </div>
+                <div class="oneone">
+                     <div class="one-one">Brick house</div>
+                     <div class="one-two" id="brick"> <img src="https://th.bing.com/th/id/OIP.6vcriGwiz-QFbVPejpoVhQHaFU?w=261&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></div>
+                </div>
+                <div class="oneone">
+                     <div class="one-one">Luxury House</div>
+                     <div class="one-two" id="hoented"> <img src="https://th.bing.com/th/id/OIP.4zVs23ZnUfSTM_W29LnO1wHaEK?w=323&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></div>
+                </div>
+                 
+             </div>
+             <div class="two">
+                 <div class="twotwo">
+                     <div class="one-one">Summer-house</div>
+                     <din class="one-two">   <img src="https://www.bing.com/th/id/OIP.pm73TmX2kcWn8Ca8q_9YbAHaE7?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></din>
+                 </div>
+                 <div class="twotwo">
+                     <div class="one-one">Renovate House</div>
+                     <din class="one-two">  <img src="https://th.bing.com/th/id/OIP.CRNvh99BWe8AbI00KFnKPwHaFj?w=297&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></din>
+                 </div>
+                 <div class="twotwo">
+                     <div class="one-one"  >Brick house</div>
+                     <div class="one-two" id="brick"> <img src="https://th.bing.com/th/id/OIP.1J-YO0U_tCx3EigWLnhZJwHaE4?w=274&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></div>
+                 </div>
+                     
+                 <div class="twotwo">
+                     <div class="one-one">Luxury House</div>
+                     <div class="one-two" id="hoented"> <img src="https://www.bing.com/th/id/OIP.OSay6zVLCmU6fnzOyT-jcgHaEF?w=327&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=""></div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <div class="Main-two">
+        <div class="main-head">About</div>
+
+        <div class="Main-Main">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fuga optio magni culpa, labore dolor temporibus,
+                 at unde minus deleniti debitis quae! Sunt amet molestiae ex rem omnis quasi vitae!
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate fuga optio magni culpa, labore dolor temporibus,
+                 at unde minus deleniti debitis quae! Sunt amet molestiae ex rem omnis quasi vitae</p>
+              
+                 <div class="Main-Main-one">
+                    <div class="Main-Main-one-one">
+                         <div class="Main-Main-one-one-one"> <img src="https://www.w3schools.com/w3images/team2.jpg" alt=""> John Doe</div>
+                          <div class="Main-Main-one-one-head">Architect</div>
+                          <div class="Main-Main-one-one-main">
+                             <div class="Main-Main-one-one-main-inner">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                             <button>Contect</button>
+                          </div>
+                    </div>
+                    <div class="Main-Main-one-one">
+                        <div class="Main-Main-one-one-one"><img src="https://www.w3schools.com/w3images/team1.jpg" alt=""> Jana Doe</div>
+                        <div class="Main-Main-one-one-head">Architect</div>
+                        <div class="Main-Main-one-one-main">
+                             <div class="Main-Main-one-one-main-inner">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                             <button>Contect</button>
+                        </div>
+                       
+                    </div>
+                    <div class="Main-Main-one-one">
+                        <div class="Main-Main-one-one-one"><img src="https://www.w3schools.com/w3images/team3.jpg" alt="">Mike Ross</div>
+                        <div class="Main-Main-one-one-head">Architect</div>
+                        <div class="Main-Main-one-one-main">
+                             <div class="Main-Main-one-one-main-inner">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                             <button>Contect</button>
+                        </div>
+                       
+                    </div>
+                    <div class="Main-Main-one-one"> 
+                        <div class="Main-Main-one-one-one"><img src="https://www.w3schools.com/w3images/team4.jpg" alt="">Dan Star</div>
+                        <div class="Main-Main-one-one-head">Architect</div>
+                        <div class="Main-Main-one-one-main">
+                             <div class="Main-Main-one-one-main-inner">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                             <button>Contect</button>
+                        </div>
+                    
+                    </div>
+                 </div>   
+        </div>
+        <div class="contect">
+             <div class="contect-head">Contect </div>
+
+                    <div class="contect-main">
+                        <div class="contect-main-head">Lets get in touch and talk about your next project.</div>
+
+                        <div class="contect-main-name">
+                            <label for="name"></label>
+                            <input type="text" placeholder="Name">
+                        </div>
+
+                        <div class="contect-main-email">
+                            <label for="email"></label>
+                            <input type="email" placeholder="email">
+                        </div>
+                        <div class="contect-main-subject">
+                            <label for="subject"></label>
+                            <input type="subject" placeholder="Subject">
+                        </div>
+
+                        <div class="contect-main-comment">
+                            <label for="text"></label>
+                            <input type="tect" placeholder="Comment"
+                        </div>
+
+                        <div class="message">
+                            <button id="butt" >Send Message</button>
+                        </div>
+
+                    </div>
+                 
+                </div>   
+                <div class="main-img "> 
+                    <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+             </div>
+            
+       
+        </div>
+
+        
+    </div>
+
+
+</body>
+</html>
