@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header-page {
+            background-image: url("https://plantcarechemicals.co.in/wp-content/themes/agriculture/image/offer-image2.jpg");
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .centeral{
+            
+        }
+        .shop-detail{
+             color: white;
+            
+        }
+        .detail{
+            display: flex;
+            margin-right:5px ;
+        }
+        .fruit-table{
+            margin: 0px 80px 0px 80px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        img{
+            height: 80px;
+        }
+        table td, table th{
+            border-bottom: 2px solid rgb(196, 194, 194);
+            padding: 20px;
+            
+        
+        }
+        table th{ 
+            text-align: inherit;
+        }
+        .one{
+            border-radius: 50%;
+            font-size: 0.869rem;
+            padding: 10px;
+            font-weight: 800;
+            text-size-adjust: 10px;
+            border: 0px;
+            margin: 10px;
+        }
+        .table-class{
+        }
+        
+        .coupon-code{
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid rgb(239, 237, 237);
+        }
+        .coupon-code:hover{
+            border: 1px solid black;
+            box-shadow: 10px 10px 20px rgb(36,36,36,0.5);
+        }
+        .coupon{
+            border: 1px solid rgb(239, 237, 237);
+            border-radius: 20px;
+            font-size: 0.869rem;
+            padding: 10px;
+            font-weight: 0;
+            text-size-adjust: none;
+            border: 0px;
+            margin: 10px;
+            width: 15%;
+        }
+        .coupon:hover{
+            color: white;
+            background-color: lightgreen;
+            box-shadow: 10px 10px 20px rgb(36,36,36,0.5);
+        }
+        .totel-cart{
+             display: flex;
+             justify-content: space-between;
+        }
+        .cart{
+            padding: 15px;
+             background-color: rgb(210, 205, 205);
+             height: 300px;
+             width: 300px;
+        }
+        .subtotel{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .shipping{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .rate{
+            display: flex;
+            justify-content: end;
+            border-bottom: 1px solid rgb(98, 95, 95);
+            padding-bottom: 5px;
+        }
+        .totel{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            border-bottom: 1px solid rgb(98, 95, 95);
+            padding-bottom: 10px;
+
+        }
+       
+        .checkout{
+            padding: 5px;
+            height: 100%;
+            border-radius: 40px;
+            margin: 10px;
+            padding: 15px;
+
+        }
+        .checkout:hover{
+            color: white;
+            background-color: orange;
+            box-shadow: 10px 10px 20px rgb(36,36,36,0.5);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header-page">
+        <din class="centeral">
+            <div class="shop-detail"><h1>Shop Details</h1></div>
+            <div class="detail">
+                  <div class="home">Home /</div>
+                  <div class="page">Page /</div>
+                  <div class="shop">Shope details</div>
+           </div>     
+    
+        </div>
+    </div>
+    <div class="fruit-table">
+        <table>
+            <tr>
+                <th>Products</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Totle</th>
+                <th>Handle</th>
+            </tr>
+            <tr>
+                <td><div class="table-class"><img src="https://themewagon.github.io/fruitables/img/vegetable-item-3.png"></div></td>
+                <td>Banana</td>
+                <td>7.99$</td>
+                <td><button class="one">-</button>1<button class="one">+</button></td>
+                <td>7.99$</td>
+                <td><button class="one">X</button></td>
+            </tr>
+            <tr>
+                <td><div class="table-class"><img src="https://themewagon.github.io/fruitables/img/vegetable-item-5.jpg"></div></td>
+                <td>Potato</td>
+                <td>7.99$</td>
+                <td><button class="one">-</button>1<button class="one">+</button></td>
+                <td>7.99$</td>
+                <td><button class="one">X</button></td>
+            </tr>
+            <tr>
+                <td><div class="table-class"><img src="https://themewagon.github.io/fruitables/img/vegetable-item-2.jpg"></div></td>
+                <td>Brocoli</td>
+                <td>7.99$</td>
+                <td><button class="one">-</button>1<button class="one">+</button></td>
+                <td>7.99$</td>
+                <td><button class="one">X</button></td>
+            </tr>
+           
+        </table>
+        <div class="button-class">
+            
+              <input class="coupon-code" type="text" placeholder="Coupon Code">
+
+              <button class="coupon">Apply Coupon</button>
+        </div>
+
+        <div class="totel-cart">
+                <div class="totel">
+                 </div>
+                <div class="cart">
+                         <h1>Totel Cart</h1>
+                    <div class="subtotel">
+                          <h2>Subtotel</h2>
+                          <p>$96.00</p>
+                    </div>
+                    <div class="shipping">
+                           <h2>Shipping</h2>
+                           <p>flat rate:$3.00</p>
+                    </div>
+                    <div class="rate">shipping to Ukraine.</div>
+
+
+                    <div class="totel">
+                        <h2> Totel</h2>
+                        <p>$99.00</p>
+                     </div>  
+
+                     <div class="process">
+                        <button class="checkout">Procees Checkout</button>
+                     </div>
+               </div>
+                
+        </div>
+         
+       
+    </div>
+</body>
+</html>
